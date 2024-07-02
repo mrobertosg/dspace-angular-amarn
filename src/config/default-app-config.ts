@@ -210,7 +210,7 @@ export class DefaultAppConfig implements AppConfig {
   };
 
   // Default Language in which the UI will be rendered if the user's browser language is not an active language
-  defaultLanguage = 'en';
+  defaultLanguage = 'pt-BR';
 
   // Languages. DSpace Angular holds a message catalog for each of the following languages.
   // When set to active, users will be able to switch to the use of this language in the user interface.
@@ -345,7 +345,7 @@ export class DefaultAppConfig implements AppConfig {
 
     {
       // The default dspace theme
-      name: 'dspace',
+      name: 'amarn',
       // Whenever this theme is active, the following tags will be injected into the <head> of the page.
       // Example use case: set the favicon based on the active theme.
       headTags: [
@@ -354,7 +354,7 @@ export class DefaultAppConfig implements AppConfig {
           tagName: 'link',
           attributes: {
             'rel': 'icon',
-            'href': 'assets/dspace/images/favicons/favicon.ico',
+            'href': 'assets/amarn/images/favicons/favicon.ico',
             'sizes': 'any',
           }
         },
@@ -363,7 +363,7 @@ export class DefaultAppConfig implements AppConfig {
           tagName: 'link',
           attributes: {
             'rel': 'icon',
-            'href': 'assets/dspace/images/favicons/favicon.svg',
+            'href': 'assets/amarn/images/favicons/favicon.svg',
             'type': 'image/svg+xml',
           }
         },
@@ -372,7 +372,7 @@ export class DefaultAppConfig implements AppConfig {
           tagName: 'link',
           attributes: {
             'rel': 'apple-touch-icon',
-            'href': 'assets/dspace/images/favicons/apple-touch-icon.png',
+            'href': 'assets/amarn/images/favicons/apple-touch-icon.png',
           }
         },
         {
@@ -380,7 +380,7 @@ export class DefaultAppConfig implements AppConfig {
           tagName: 'link',
           attributes: {
             'rel': 'manifest',
-            'href': 'assets/dspace/images/favicons/manifest.webmanifest',
+            'href': 'assets/amarn/images/favicons/manifest.webmanifest',
           }
         },
       ]
@@ -395,8 +395,8 @@ export class DefaultAppConfig implements AppConfig {
   // For images, this enables a gallery viewer where you can zoom or page through images.
   // For videos, this enables embedded video streaming
   mediaViewer: MediaViewerConfig = {
-    image: false,
-    video: false
+    image: true,
+    video: true
   };
   // Whether the end-user-agreement and privacy policy feature should be enabled or not.
   // Disabling the end user agreement feature will result in:

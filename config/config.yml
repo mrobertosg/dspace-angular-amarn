@@ -4,7 +4,7 @@ rest:
   port: 443
   nameSpace: /server
 
-themes:
+#themes:
   # Add additional themes here. In the case where multiple themes match a route, the first one
   # in this list will get priority. It is advisable to always have a theme that matches
   # every route as the last one
@@ -42,23 +42,30 @@ themes:
   # # This theme will use the default bootstrap styling for DSpace components
   # - name: BASE_THEME_NAME
   #
-  - name: amarn
-    headTags:
-    - tagName: link
-      attributes:
-        rel: icon
-        href: assets/dspace/images/favicons/favicon.ico
-        sizes: any
-    - tagName: link
-      attributes:
-        rel: icon
-        href: assets/dspace/images/favicons/favicon.svg
-        type: image/svg+xml
-    - tagName: link
-      attributes:
-        rel: apple-touch-icon
-        href: assets/dspace/images/favicons/apple-touch-icon.png
-    - tagName: link
-      attributes:
-        rel: manifest
-        href: assets/dspace/images/favicons/manifest.webmanifest
+#  - name: amarn
+#    headTags:
+#    - tagName: link
+#      attributes:
+#        rel: icon
+#        href: assets/amarn/images/favicons/favicon.ico
+#        sizes: any
+#    - tagName: link
+#      attributes:
+#        rel: icon
+#        href: assets/amarn/images/favicons/favicon.svg
+#       type: image/svg+xml
+#    - tagName: link
+#      attributes:
+#        rel: apple-touch-icon
+#        href: assets/amarn/images/favicons/apple-touch-icon.png
+#    - tagName: link
+#      attributes:
+#        rel: manifest
+#        href: assets/amarn/images/favicons/manifest.webmanifest
+## Whether to enable media viewer for image and/or video Bitstreams (i.e. Bitstreams whose MIME type starts with "image" or "video").
+## For images, this enables a gallery viewer where you can zoom or page through images.
+## For videos, this enables embedded video streaming
+#mediaViewer: {
+#  image: true,
+#  video: true,
+#},      

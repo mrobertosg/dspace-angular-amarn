@@ -69,7 +69,8 @@
   --ds-total-sidebar-width: #{$total-sidebar-width};
 
   --ds-top-footer-bg: #{$gray-200};
-  --ds-footer-bg: #{theme-color('primary')};
+  //--ds-footer-bg: #{theme-color('primary')};
+  --ds-footer-bg: #8D3C42;
   --ds-footer-border: 1px solid var(--bs-gray-400);
   --ds-footer-padding: 0;
   --ds-footer-padding-bottom: 0;
@@ -102,3 +103,4 @@
   --ds-dso-edit-actions-width: 173px;
   --ds-dso-edit-virtual-tooltip-min-width: 300px;
 }
+

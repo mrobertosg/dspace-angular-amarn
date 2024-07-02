@@ -1618,7 +1618,7 @@
 
   "file-section.error.header": "Error obtaining files for this item",
 
-  "footer.copyright": "copyright © 2002-{{ year }}",
+  "footer.copyright": "copyright © {{ year }}",
 
   "footer.link.dspace": "DSpace software",
 
@@ -3496,9 +3496,9 @@
 
   "repository.image.logo": "Repository logo",
 
-  "repository.title": "DSpace Repository",
+  "repository.title": "AMARN Repository",
 
-  "repository.title.prefix": "DSpace Repository :: ",
+  "repository.title.prefix": "AMARN Repository :: ",
 
   "resource-policies.add.button": "Add",
 

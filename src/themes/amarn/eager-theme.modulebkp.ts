@@ -9,7 +9,6 @@ import { RootModule } from '../../app/root.module';
 import { NavbarModule } from '../../app/navbar/navbar.module';
 import { SharedBrowseByModule } from '../../app/shared/browse-by/shared-browse-by.module';
 import { ResultsBackButtonModule } from '../../app/shared/results-back-button/results-back-button.module';
-import { FooterComponent } from './app/footer/footer.component'; 
 
 /**
  * Add components that use a custom decorator to ENTRY_COMPONENTS as well as DECLARATIONS.
@@ -19,7 +18,6 @@ const ENTRY_COMPONENTS = [];
 
 const DECLARATIONS = [
   ...ENTRY_COMPONENTS,
-  FooterComponent, 
   HomeNewsComponent,
   HeaderComponent,
   HeaderNavbarWrapperComponent,
